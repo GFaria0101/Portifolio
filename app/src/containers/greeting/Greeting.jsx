@@ -30,7 +30,7 @@ export default function Greeting(props) {
                         <h1 className="greeting-typewriter" style={{color: theme.blue, whiteSpace: "pre-wrap"}}>
                             <Typewriter
                                 onInit={(typewriter) => {
-                                    typewriter.typeString("Application Support").pauseFor(1500).deleteAll().typeString("IT Support L2/L3").pauseFor(1500).deleteAll().typeString("Sistemas e Automação").pauseFor(1500).deleteAll().start();
+                                    typewriter.typeString("Application Support").pauseFor(1500).deleteAll().typeString("Full-Stack Developer").pauseFor(1500).deleteAll().typeString("Team Lead").pauseFor(1500).deleteAll().start();
                                 }}
                                 options={{
                                     autoStart: true,
@@ -41,12 +41,12 @@ export default function Greeting(props) {
                         <span
                             className="greeting-text-span subTitle"
                             style={{color: theme.text}}>
-                <div className="entities">Profissional de <b style={{color: theme.blue}}>Application Support e IT Support L2/L3</b>, com experiência em <b style={{color: theme.orange}}>sistemas, infraestrutura e automação</b>. Atuo na investigação de incidentes, análise de logs e SQL, suporte a APIs e integrações e coordenação de equipas técnicas.</div>
+                <div className="entities">Profissional de <b style={{color: theme.blue}}>Application Support e IT Support L2/L3</b>, com experiência em <b style={{color: theme.orange}}>desenvolvimento Full Stack, pipelines de dados em Python e liderança de equipas</b>. Atuo na investigação de incidentes, análise de logs e SQL, suporte a APIs e integrações e coordenação de equipas técnicas.</div>
               </span>
                         <CompetitiveSites logos={competitiveSites.competitiveSites}/>
                         <div className="button-greeting-div">
                             <Button text="Contacto" href="/contact"/>
-                            <Button text="Minha experiência" href="/education"/>
+                            <a className="main-button" href="cv.html" target="_blank" rel="noopener noreferrer">Meu CV</a>
                         </div>
                     </div>
                     <div className="greeting-image-div">

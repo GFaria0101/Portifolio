@@ -9,7 +9,7 @@ npm ci
 npm run dev -- --host 0.0.0.0 --port 3001
 ```
 
-Fontes e configurações estão em `app/` e `vite.config.js`. Edite `app/src/portfolio.jsx` para alterar informações profissionais. Não acrescente telefone, e-mail, localização ou currículo com dados pessoais.
+Fontes e configurações estão em `app/` e `vite.config.js`. Edite `app/src/portfolio.jsx` para alterar informações profissionais. Não acrescente telefone, e-mail ou morada. O usuário autorizou mostrar a origem (Rio de Janeiro, Rio de Janeiro, Brasil) e a data de nascimento (06/02/1997) apenas na página Sobre mim. A versão pública do CV em `app/public/cv.html` omite contactos e dados pessoais e abre noutra aba. Os níveis de idiomas seguem o currículo enviado.
 
 ## Atualizar o site
 

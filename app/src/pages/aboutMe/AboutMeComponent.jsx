@@ -1,55 +1,18 @@
-import React, {Component} from "react";
-import Header from "../../components/header/Header.jsx";
-import Footer from "../../components/footer/Footer.jsx";
-import TopButton from "../../components/topButton/TopButton.jsx";
-import "./aboutMe.css";
-import {Fade} from "react-awesome-reveal";
-import AboutMeImg from "./AboutMeImg.jsx";
-import SkillsSet from "./SkillsSet.jsx";
-import {hobbies, idioms, languages, softSkills} from "../../portfolio.jsx";
-import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill.jsx";
-
-class AboutMeComponent extends Component {
-    render() {
-        const theme = this.props.theme;
-        return (
-            <div className={"about-main"}>
-                <Header theme={theme}/>
-                <div className="basic-about">
-                    <Fade direction={"up"} duration={2000} triggerOnce={true}>
-                        <div className="heading-div-about">
-                            {/*<div className="heading-img-div-about">*/}
-                            {/*    <AboutMeImg theme={theme}/>*/}
-                            {/*</div>*/}
-                            <div className="heading-text-div-about">
-                                <h1 className="heading-text-about" style={{color: theme.orange}}>
-                                    Sobre mim
-                                </h1>
-                                <p className="heading-sub-text-about" style={{color: theme.text}}>
-                                    <b>Competências técnicas e profissionais</b>
-                                </p>
-                            </div>
-                        </div>
-                    </Fade>
-                    <div className={"heading-div-about2"}>
-                        <div>
-                            <h3>Sistemas, aplicações e dados</h3><div className="soft-skills"><span>Windows Server · Linux · Active Directory</span><span>Microsoft 365 · Intune · MECM/SCCM</span><span>SQL Server · MySQL · PostgreSQL · MongoDB</span><span>Java · JavaScript · REST APIs · Kafka</span></div>
-                        </div>
-                        <div>
-                            <div>
-                                <h3>Competências profissionais</h3>
-                                <div className="soft-skills">
-                                    {softSkills.map((s, index) => <span key={index}>{s}</span>)}
-                                </div>
-                            </div>
-                            <h3>Automação e operações</h3><div className="soft-skills"><span>PowerShell · Bash · Python · Ansible</span><span>Dynatrace · Zabbix</span><span>AWS · Azure · Docker · Kubernetes · OpenShift</span><span>Jenkins · Git · Terraform · CI/CD</span></div>
-                        </div>
-                    </div>
-                </div>
-                <Footer theme={this.props.theme}/>
-                <TopButton theme={this.props.theme}/>
-            </div>)
-    }
+import React from 'react';
+import Header from '../../components/header/Header.jsx';
+import Footer from '../../components/footer/Footer.jsx';
+import TopButton from '../../components/topButton/TopButton.jsx';
+import SkillsSet from './SkillsSet.jsx';
+import {hobbies,idioms,languages,softSkills} from '../../portfolio.jsx';
+import './aboutMe.css';
+export default function AboutMeComponent({theme}) {
+ return <div className="about-main"><Header theme={theme}/><main className="basic-about">
+ <div className="heading-div-about"><div className="heading-text-div-about"><h1 className="heading-text-about" style={{color:theme.orange}}>Sobre mim</h1><p className="heading-sub-text-about"><b>Soft Skills, Idiomas, Linguagens e Hobbies</b></p></div></div>
+ <div className="heading-div-about2 about-reference"><div>
+ <p className="personal-facts"><strong>Data de nascimento:</strong> <time dateTime="1997-02-06">6 de fevereiro de 1997</time><br/><strong>Origem:</strong> Rio de Janeiro, Rio de Janeiro, Brasil</p>
+ <SkillsSet name="Principais linguagens de programação" skills={languages}/>
+ <SkillsSet name="Idiomas" skills={idioms}/>
+ </div><div><h3>Principais Soft Skills</h3><div className="soft-skills">{softSkills.map(skill=><span key={skill}>{skill}</span>)}</div>
+ <h3 className="hobbies-title">Meus hobbies e interesses</h3><ul className="hobby-icons" aria-label="Hobbies e interesses">{hobbies.map(hobby=><li key={hobby.name} title={hobby.name}><span role="img" aria-label={hobby.name}>{hobby.symbol}</span></li>)}</ul>
+ </div></div></main><Footer theme={theme}/><TopButton theme={theme}/></div>;
 }
-
-export default AboutMeComponent;
