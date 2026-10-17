@@ -9,10 +9,24 @@ import mongo from '@iconify/icons-logos/mongodb-icon';
 import jiraIcon from '@iconify/icons-logos/jira';
 import confluenceIcon from '@iconify/icons-logos/confluence';
 import apacheIcon from '@iconify/icons-logos/apache';
-import quarkusIcon from '@iconify/icons-logos/quarkus';
 import reactIcon from '@iconify/icons-logos/react';
 import nextjsIcon from '@iconify/icons-logos/nextjs-icon';
 import typescriptIcon from '@iconify/icons-logos/typescript-icon';
 import openlayersIcon from '@iconify/icons-logos/openlayers';
-const icons={'logos-jira':jiraIcon,'logos-confluence':confluenceIcon,'logos-apache':apacheIcon,'logos-quarkus':quarkusIcon,'logos-react':reactIcon,'logos-nextjs':nextjsIcon,'logos-typescript':typescriptIcon,'logos-openlayers':openlayersIcon,'logos-git-icon':git,'logos-java':java,'logos-python':python,'logos-docker-icon':docker,'logos-postgresql':postgres,'logos-mongodb-icon':mongo};
-export default function LocalIcon({name}) { return icons[name] ? <Icon icon={icons[name]}/> : <span aria-hidden="true">J</span>; }
+import pandasIcon from '@iconify/icons-logos/pandas-icon';
+import html5Icon from '@iconify/icons-logos/html-5';
+import css3Icon from '@iconify/icons-logos/css-3';
+import sassIcon from '@iconify/icons-logos/sass';
+import bootstrapIcon from '@iconify/icons-logos/bootstrap';
+import javascriptIcon from '@iconify/icons-logos/javascript';
+import nodejsIcon from '@iconify/icons-logos/nodejs-icon';
+import vueIcon from '@iconify/icons-logos/vue';
+import npmIcon from '@iconify/icons-logos/npm-icon';
+import figmaIcon from '@iconify/icons-logos/figma';
+import photoshopIcon from '@iconify/icons-logos/adobe-photoshop';
+import phpIcon from '@iconify/icons-logos/php';
+import csharpIcon from '@iconify/icons-logos/c-sharp';
+import azureIcon from '@iconify/icons-logos/microsoft-azure';
+import awsIcon from '@iconify/icons-logos/aws';
+const icons={'logos-pandas':pandasIcon,'logos-html5':html5Icon,'logos-css3':css3Icon,'logos-sass':sassIcon,'logos-bootstrap':bootstrapIcon,'logos-javascript':javascriptIcon,'logos-nodejs':nodejsIcon,'logos-vue':vueIcon,'logos-npm':npmIcon,'logos-figma':figmaIcon,'logos-photoshop':photoshopIcon,'logos-php':phpIcon,'logos-csharp':csharpIcon,'logos-azure':azureIcon,'logos-aws':awsIcon,'logos-jira':jiraIcon,'logos-confluence':confluenceIcon,'logos-apache':apacheIcon,'logos-react':reactIcon,'logos-nextjs':nextjsIcon,'logos-typescript':typescriptIcon,'logos-openlayers':openlayersIcon,'logos-git-icon':git,'logos-java':java,'logos-python':python,'logos-docker-icon':docker,'logos-postgresql':postgres,'logos-mongodb-icon':mongo};
+export default function LocalIcon({name,label}) { return icons[name] ? <Icon icon={icons[name]} aria-hidden="true"/> : <span className="technology-badge" aria-hidden="true">{name==='support-servicenow'?'SN':name==='support-otrs'?'OTRS':label?.slice(0,2)}</span>; }

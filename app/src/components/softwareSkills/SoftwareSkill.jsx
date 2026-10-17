@@ -14,7 +14,7 @@ class SoftwareSkill extends React.Component {
                                 <li key={logo.skillName} className="software-skill-inline"
                                     data-tooltip-id="my-tooltip" data-tooltip-content={logo.skillName}
                                     name={logo.skillName}>
-                                    <LocalIcon name={logo.fontAwesomeClassname}/>
+                                    <LocalIcon name={logo.fontAwesomeClassname} label={logo.skillName}/><span className="technology-name">{logo.skillName}</span>
                                 </li>
                             );
                         })}

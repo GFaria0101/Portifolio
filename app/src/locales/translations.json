@@ -219,11 +219,6 @@
     "es": "Modelado e implementación de bases de datos espaciales y relacionales con PostgreSQL y PostGIS, incluidos sistemas con más de 60 tablas.",
     "fr": "Modélisation et mise en œuvre de bases de données spatiales et relationnelles avec PostgreSQL et PostGIS, dont des systèmes de plus de 60 tables."
   },
-  "Criação de APIs backend de raiz com Java, Quarkus e frameworks semelhantes.": {
-    "en": "Building backend APIs from scratch with Java, Quarkus and similar frameworks.",
-    "es": "Creación de APIs backend desde cero con Java, Quarkus y frameworks similares.",
-    "fr": "Création d’API backend de zéro avec Java, Quarkus et des frameworks similaires."
-  },
   "Tratamento, limpeza e organização de dados espaciais.": {
     "en": "Processing, cleaning and organising spatial data.",
     "es": "Tratamiento, limpieza y organización de datos espaciales.",
@@ -543,5 +538,25 @@
     "en": "Full-Stack Developer",
     "es": "Desarrollador Full Stack",
     "fr": "Développeur Full Stack"
+  },
+  "Tratamento, limpeza e análise de dados com Python e Pandas.": {
+    "en": "Processing, cleaning and analysing data with Python and Pandas.",
+    "es": "Tratamiento, limpieza y análisis de datos con Python y Pandas.",
+    "fr": "Traitement, nettoyage et analyse de données avec Python et Pandas."
+  },
+  "Desenvolvimento de APIs e aplicações backend com Java, Node.js, PHP e C#.": {
+    "en": "Developing APIs and backend applications with Java, Node.js, PHP and C#.",
+    "es": "Desarrollo de APIs y aplicaciones backend con Java, Node.js, PHP y C#.",
+    "fr": "Développement d’API et d’applications backend avec Java, Node.js, PHP et C#."
+  },
+  "Desenvolvimento de interfaces com HTML5, CSS3, Sass, Bootstrap, JavaScript, TypeScript, ReactJS, Next.js e Vue.js.": {
+    "en": "Building interfaces with HTML5, CSS3, Sass, Bootstrap, JavaScript, TypeScript, ReactJS, Next.js and Vue.js.",
+    "es": "Desarrollo de interfaces con HTML5, CSS3, Sass, Bootstrap, JavaScript, TypeScript, ReactJS, Next.js y Vue.js.",
+    "fr": "Développement d’interfaces avec HTML5, CSS3, Sass, Bootstrap, JavaScript, TypeScript, ReactJS, Next.js et Vue.js."
+  },
+  "Utilização de npm no desenvolvimento e de Figma e Adobe Photoshop na preparação visual de interfaces.": {
+    "en": "Using npm for development and Figma and Adobe Photoshop for interface visuals.",
+    "es": "Uso de npm en el desarrollo y de Figma y Adobe Photoshop para la preparación visual de interfaces.",
+    "fr": "Utilisation de npm pour le développement et de Figma et Adobe Photoshop pour la conception visuelle des interfaces."
   }
 }
