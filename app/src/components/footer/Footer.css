@@ -1,0 +1,13 @@
+.footer-text {
+  text-align: center;
+  /* color: #868e96; */
+  font-weight: bold;
+  font-family: "Google Sans Regular";
+}
+
+.footer-div {
+  height: 100%;
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+}

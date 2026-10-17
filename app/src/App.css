@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.heading {
+  color: black;
+}
+
+.subTitle {
+  color: #868e96;
+}
+
+:root {
+  --themeBlue: #4fc6ec;
+  --themeOrange: #5D40FF;
+}
+
+/* Animations */
+@keyframes fade_down {
+  0% {
+    opacity: 0.01;
+    transform: translateY(-20px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+      transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+      transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+}
+
+@keyframes fade_up {
+  0% {
+    opacity: 0.01;
+    transform: translateY(20px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+      transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: opacity 300ms cubic-bezier(0.645, 0.045, 0.355, 1),
+      transform 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  }
+}
+/* Responsive and accessibility adjustments; original reference layout retained. */
+.personal-logo{font-family:'Agustina Regular',cursive;color:var(--themeOrange);font-size:36px;display:flex;align-items:center;min-height:63px}.monogram-portrait{display:flex;align-items:center;justify-content:center;background:#eeebff;color:var(--themeOrange);font:700 110px 'Google Sans Bold',sans-serif;border:5px solid white}.greeting-image-div{position:relative;min-width:0;min-height:420px}.greeting-text-div{min-width:0}.greeting-typewriter{line-height:1.25!important;min-height:2.5em;margin-bottom:20px!important}.basic-about{height:auto!important;min-height:70vh;padding-bottom:60px}.basic-contact{min-height:65vh}.soft-skills{max-width:500px;line-height:1.7}.main-button{display:inline-block;background:var(--themeBlue);color:#000;text-decoration:none}.menu a[aria-current=page]{font-weight:bold}.header .menu-btn{display:block;position:absolute;opacity:0;width:1px;height:1px}.menu-btn:focus-visible+.menu-icon{outline:3px solid var(--themeOrange)}a:focus-visible{outline:3px solid var(--themeOrange);outline-offset:3px}.header li a{padding:20px 14px}.header{gap:15px}.greeting-sub{margin-bottom:20px!important}.greeting-name{flex-wrap:wrap}.over.monogram-portrait{aspect-ratio:1}.resume-item .resume-subtitle{font-size:18px}.software-skill-inline svg{width:48px;height:48px}.projects-main .card-img-top{max-height:150px;max-width:100%;object-fit:contain}#root{width:100%}body{overflow-x:clip}@media(max-width:960px){.header li a{padding:20px 10px;font-size:14px}}@media(max-width:768px){.greeting-image-div{min-height:340px}.monogram-portrait{font-size:75px!important;width:230px!important;height:230px}.greeting-main .under{width:90vw}.greeting-typewriter{font-size:28px!important}.greeting-text-div{align-items:center}.greeting-name{justify-content:center;gap:8px}.greeting-sub{font-size:36px!important}.greeting-text-span{overflow-wrap:anywhere}.button-greeting-div{flex-wrap:wrap;justify-content:center;gap:10px}.heading-div-about2{flex-direction:column;gap:35px}.heading-div-about2>div{width:100%}.heading-div2{flex-direction:column}.resume-left,.resume-right{width:100%!important}.header .menu{width:100%}.personal-logo{font-size:30px}.skills-main-div{overflow:hidden}.heading-text-about{font-size:32px}.greet-main{padding-left:5px;padding-right:5px}.greeting-text{font-size:64px!important}.contact-heading-img-div{max-width:100%}}@media(prefers-reduced-motion:reduce){html,body{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}

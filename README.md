@@ -1,18 +1,21 @@
-# Portfólio pessoal
+# Gabriel Faria · Portfólio
 
-Site estático responsivo em português, inspirado na organização e nas cores do portfólio de MarciaBM. Implementação própria em HTML, CSS e JavaScript, sem dependências ou build.
+Adaptação do código de [MarciaBM/marciabm.github.io](https://github.com/MarciaBM/marciabm.github.io), sob licença MIT (ver LICENSE), originalmente baseado no trabalho de Rohan Kokkula. Preserva layout, fontes, cores e animações da referência com conteúdo profissional de Gabriel Faria.
 
-## Executar
+## Desenvolvimento
 
 ```sh
-cd /workspace/Portifolio
-python3 -m http.server 3000 --bind 0.0.0.0
+npm ci
+npm run dev -- --host 0.0.0.0 --port 3001
 ```
 
-## Personalizar
+Fontes e configurações estão em `app/` e `vite.config.js`. Edite `app/src/portfolio.jsx` para alterar informações profissionais. Não acrescente telefone, e-mail, localização ou currículo com dados pessoais.
 
-Edite `index.html` para adicionar nome, apresentação, habilidades, formação, projetos e contatos. O nome informado é Gabriel Faria da Silva. O identificador `GFaria0101` vem do repositório; a apresentação, as competências, as experiências, a formação e os contactos foram preenchidos com base no currículo enviado. O PDF está em `assets/Gabriel_Faria_Curriculo.pdf`. O monograma é uma ilustração temporária, sem foto de terceiros. Estilos em `styles.css`; navegação em `script.js`.
+## Atualizar o site
 
-## Publicar
+```sh
+npm run build
+python3 scripts/publish-files.py
+```
 
-No GitHub Pages, selecione a branch que contém estes arquivos e a pasta raiz. Todos os caminhos de recursos são relativos, compatíveis com `/Portifolio/`.
+O script copia o build para a raiz, servida pelo GitHub Pages na branch main. Publique com commit e push após validar. Não altere manualmente o HTML compilado da raiz.
