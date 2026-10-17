@@ -110,13 +110,13 @@
     position: relative !important;
     padding-bottom: 30px !important;
     /*background-image: var(--section-background-color) !important;*/
-    color: black;
+    color: var(--page-text);
 }
 
 .skill-circle-painted{
     width: 15px;
     height: 15px;
-    border: solid 1px black;
+    border: solid 1px var(--page-text);
     border-radius: 15px;
     background-color: var(--themeBlue);
 }
@@ -124,7 +124,7 @@
 .skill-circle{
     width: 15px;
     height: 15px;
-    border: solid 1px black;
+    border: solid 1px var(--page-text);
     border-radius: 15px;
 }
 

@@ -88,13 +88,13 @@
   position: relative !important;
   padding-bottom: 30px !important;
   /*background-image: var(--section-background-color) !important;*/
-  color: black;
+  color: var(--page-text);
 }
 
 .resume {
   padding-top: 10px;
   padding-bottom: 50px;
-  color: black;
+  color: var(--page-text);
 }
 
 
@@ -155,7 +155,7 @@
   background: none;
   display: inline-block;
   font-weight: 700;
-  color:black;
+  color:var(--page-text);
   margin-bottom: 10px;
   margin-top: -2px;
 }

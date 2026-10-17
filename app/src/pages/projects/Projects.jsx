@@ -63,7 +63,7 @@ class Projects extends Component {
                                                 rel="noopener noreferrer"
                                             >
                                                 <Icon style={{
-                                                    color: proj.linkcolor,
+                                                    color: theme.text,
                                                     marginLeft: "10px",
                                                 }} icon={
                                                     {body:'<path d="M4 12h16m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2"/>',width:24,height:24}
@@ -78,7 +78,7 @@ class Projects extends Component {
                                                 <span
                                                     aria-label="Ver código no GitHub"
                                                     style={{
-                                                        color: proj.linkcolor,
+                                                        color: theme.text,
                                                         paddingLeft: "10px",
                                                     }}
                                                 >GitHub</span>
@@ -86,7 +86,7 @@ class Projects extends Component {
                                         </h2>
                                     </Card.Title>
                                     <Card.Title>
-                                        <h4 style={{lineHeight: "1.5", marginTop: "0", color: "gray"}}>
+                                        <h4 style={{lineHeight: "1.5", marginTop: "0", color: theme.grayText}}>
                                             {proj.subTitle}
                                         </h4>
                                     </Card.Title>

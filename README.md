@@ -19,3 +19,7 @@ python3 scripts/publish-files.py
 ```
 
 O script copia o build para a raiz, servida pelo GitHub Pages na branch main. Publique com commit e push após validar. Não altere manualmente o HTML compilado da raiz.
+
+## Tema
+
+O botão no cabeçalho alterna claro/escuro e guarda a preferência em `localStorage` (`gabriel-portfolio-theme`). Sem preferência guardada, segue o tema do dispositivo. Todas as páginas, incluindo o CV, respeitam a escolha. A impressão do CV mantém fundo branco.
