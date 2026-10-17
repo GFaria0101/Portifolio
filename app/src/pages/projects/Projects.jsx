@@ -1,3 +1,4 @@
+import {LanguageContext} from '../../i18n.jsx';
 import React, {Component} from "react";
 import Header from "../../components/header/Header.jsx";
 import Footer from "../../components/footer/Footer.jsx";
@@ -5,15 +6,16 @@ import Button from "../../components/button/Button.jsx";
 import Badge from "react-bootstrap/Badge";
 import TopButton from "../../components/topButton/TopButton.jsx";
 import {Fade} from "react-awesome-reveal";
-import {projectsHeader} from "../../portfolio.jsx";
-import {projectcards} from "../../portfolio.jsx";
 import {Card} from "react-bootstrap";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg.jsx";
 import {Icon} from "@iconify/react";
 
 class Projects extends Component {
+  static contextType=LanguageContext;
     render() {
+    const {t,portfolio}=this.context;
+    const {projectsHeader, projectcards}=portfolio;
         const theme = this.props.theme;
         return (
             <div className="projects-main">
@@ -76,7 +78,7 @@ class Projects extends Component {
                                                 rel="noopener noreferrer"
                                             >
                                                 <span
-                                                    aria-label="Ver código no GitHub"
+                                                    aria-label={t('Ver código no GitHub')}
                                                     style={{
                                                         color: theme.text,
                                                         paddingLeft: "10px",

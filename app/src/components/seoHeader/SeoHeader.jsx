@@ -1,8 +1,10 @@
+import {useLanguage} from '../../i18n.jsx';
 import React from "react";
 import { Helmet } from "react-helmet";
-import { seo } from "../../portfolio.jsx";
 
 function SeoHeader() {
+    const {t,locale,portfolio}=useLanguage();
+    const {seo}=portfolio;
   return (
     <Helmet>
       <title>{seo.title}</title>

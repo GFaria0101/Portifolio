@@ -18,6 +18,7 @@ O portfólio inclui:
 - Projetos e links para os meus perfis profissionais.
 - CV numa aba separada, com opção de impressão ou exportação para PDF.
 - Temas claro e escuro, com a preferência guardada no navegador.
+- Seletor de português, inglês, espanhol e francês, incluindo o CV.
 - Layout responsivo para computador, tablet e telemóvel.
 
 ## Tecnologias
@@ -38,7 +39,9 @@ npm run dev -- --host 0.0.0.0 --port 3001
 - `app/src/portfolio.jsx`: conteúdo e competências profissionais.
 - `app/src/pages/`: páginas do portfólio.
 - `app/src/components/`: componentes partilhados.
-- `app/public/cv.html`: versão pública do CV.
+- `app/src/pages/cv/CV.jsx`: versão pública e multilíngue do CV.
+- `app/src/locales/translations.json`: traduções dos textos.
+- `app/src/i18n.jsx`: idioma, conteúdo traduzido e preferência do visitante.
 - `app/src/theme.js`: cores dos temas claro e escuro.
 
 ## Gerar a versão de publicação
@@ -50,3 +53,6 @@ python3 scripts/publish-files.py
 
 O build é gerado em `dist/`. O script copia os arquivos de publicação para a raiz do repositório, utilizada pelo GitHub Pages na branch `main`. As alterações devem ser feitas nos fontes em `app/`, antes de gerar uma nova versão.
 
+## Idiomas
+
+O seletor no cabeçalho permite mudar de língua sem sair da página. A preferência é guardada em `localStorage` (`gabriel-portfolio-language`), com português como padrão. O CV usa o mesmo conteúdo traduzido do portfólio e mantém os dados de contacto privados fora da apresentação. `cv.html` encaminha para a página `#/cv`, que também permite trocar o idioma e imprimir.

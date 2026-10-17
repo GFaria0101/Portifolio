@@ -1,10 +1,12 @@
+import {useLanguage} from '../../i18n.jsx';
 import {Container, Row, Col} from "react-bootstrap";
 import Resumecontent from "./ResumeContent.jsx";
-import {resumeleft, resumeright} from "../../portfolio.jsx";
 import "./EducationComponent.css";
 import React from "react";
 
 export default function Resume() {
+    const {t,locale,portfolio}=useLanguage();
+    const {resumeleft, resumeright}=portfolio;
     return (
         <Container fluid className="resume-section">
             <Container>

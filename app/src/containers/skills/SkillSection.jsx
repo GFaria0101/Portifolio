@@ -1,7 +1,7 @@
+import {LanguageContext} from '../../i18n.jsx';
 import React, { Component } from "react";
 import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill.jsx";
-import { skills } from "../../portfolio.jsx";
 import { Fade } from "react-awesome-reveal";
 import DataScienceImg from "./datascience/DataScienceImg.jsx";
 import FullStackImg from "./web/FullStackImg.jsx";
@@ -19,7 +19,10 @@ function GetSkillSvg(props) {
 //icons taken from: https://icon-sets.iconify.design
 
 class SkillSection extends Component {
+  static contextType=LanguageContext;
   render() {
+    const {t,portfolio}=this.context;
+    const {skills}=portfolio;
     const theme = this.props.theme;
     return (
       <div>

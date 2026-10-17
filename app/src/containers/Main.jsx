@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import CV from '../pages/cv/CV.jsx';
 import Home from "../pages/home/HomeComponent.jsx";
 import Splash from "../pages/splash/Splash.jsx";
 import Education from "../pages/EduEx/EducationComponent.jsx";
@@ -18,6 +19,7 @@ class Main extends Component {
         <div>
           <Router>
             <Routes>
+              <Route path="/cv" element={<CV/>}/>
               {settings.isSplash ? (
                   <>
                     <Route

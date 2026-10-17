@@ -1,0 +1,3 @@
+import React from 'react';
+import {useLanguage,localeNames} from '../../i18n.jsx';
+export default function LanguageSelect(){const {locale,setLocale,t}=useLanguage();return <label className="language-control"><span className="sr-only">{t('Idioma')}</span><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 6h14M5 18h14"/></svg><select aria-label={t('Idioma')} value={locale} onChange={e=>setLocale(e.target.value)}>{Object.entries(localeNames).map(([code,name])=><option key={code} value={code} lang={code}>{name}</option>)}</select></label>;}

@@ -1,8 +1,10 @@
+import {useLanguage} from '../../i18n.jsx';
 import React from "react";
 import "./TopButton.css";
 import {Icon} from "@iconify/react";
 
 export default function TopButton({ theme }) {
+  const {t}=useLanguage();
   function GoUpEvent() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
@@ -56,7 +58,7 @@ export default function TopButton({ theme }) {
         backgroundColor: theme.text,
         border: `solid 1px ${theme.text}`,
       }}
-      title="Go up"
+      title={t('Voltar ao topo')}
       onMouseEnter={() => onMouseEnter(theme.text, theme.body)}
       onMouseLeave={() => onMouseLeave(theme.body, theme.text)}
     >

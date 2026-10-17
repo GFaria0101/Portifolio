@@ -1,3 +1,4 @@
+import {LanguageContext} from '../../i18n.jsx';
 import React, { Component } from "react";
 import Header from "../../components/header/Header.jsx";
 import Footer from "../../components/footer/Footer.jsx";
@@ -12,7 +13,9 @@ import { Fade } from "react-awesome-reveal";
 import Resume from "./Resume.jsx";
 
 class Education extends Component {
+  static contextType=LanguageContext;
   render() {
+    const {t}=this.context;
     const theme = this.props.theme;
     return (
       <div className="education-main">
@@ -25,10 +28,10 @@ class Education extends Component {
               {/*</div>*/}
               <div className="heading-text-div">
                 <h1 className="heading-text" style={{ color: theme.orange }}>
-                  Experiência e Formação
+                  {t('Experiência e Formação')}
                 </h1>
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
-                  Percurso profissional e formação académica
+                  {t('Percurso profissional e formação académica')}
                 </h3>
                 <CompetitiveSites logos={competitiveSites.competitiveSites} />
               </div>

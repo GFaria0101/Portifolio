@@ -1,5 +1,6 @@
 import React, {useState, useLayoutEffect} from 'react';
 import './App.css';
+import {LanguageProvider} from './i18n.jsx';
 import Main from './containers/Main.jsx';
 import {ThemeProvider} from 'styled-components';
 import {blackTheme, lightTheme} from './theme';
@@ -25,7 +26,7 @@ export default function App() {
     setMode(next);
     try { localStorage.setItem(preferenceKey, next); } catch { /* Optional persistence. */ }
   }
-  return <ThemeContext.Provider value={{mode,toggleTheme}}><ThemeProvider theme={theme}>
+  return <LanguageProvider><ThemeContext.Provider value={{mode,toggleTheme}}><ThemeProvider theme={theme}>
     <GlobalStyles/><Main theme={theme}/>
-  </ThemeProvider></ThemeContext.Provider>;
+  </ThemeProvider></ThemeContext.Provider></LanguageProvider>;
 }

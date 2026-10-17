@@ -1,3 +1,4 @@
+import {LanguageContext} from '../../i18n.jsx';
 import React, { Component } from "react";
 import Header from "../../components/header/Header.jsx";
 import Footer from "../../components/footer/Footer.jsx";
@@ -6,12 +7,15 @@ import Button from "../../components/button/Button.jsx";
 import AddressImg from "./AddressImg.jsx";
 import { Fade } from "react-awesome-reveal";
 import "./ContactComponent.css";
-import {competitiveSites, contactPageData} from "../../portfolio.jsx";
 import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites.jsx";
 
-const ContactData = contactPageData.contactSection;
+
 class Contact extends Component {
+  static contextType=LanguageContext;
   render() {
+    const {t,portfolio}=this.context;
+    const {competitiveSites, contactPageData}=portfolio;
+    const ContactData=contactPageData.contactSection;
     const theme = this.props.theme;
     return (
       <div className="contact-main">
@@ -36,7 +40,7 @@ class Contact extends Component {
                   {ContactData["description"]}
                 </p>
                 <CompetitiveSites logos={competitiveSites.competitiveSites}/>
-                <div className="resume-btn-div"><a className="main-button" href="https://github.com/GFaria0101" target="_blank" rel="noopener noreferrer">Visitar GitHub</a></div>
+                <div className="resume-btn-div"><a className="main-button" href="https://github.com/GFaria0101" target="_blank" rel="noopener noreferrer">{t('Visitar GitHub')}</a></div>
               </div>
             </div>
           </Fade>
