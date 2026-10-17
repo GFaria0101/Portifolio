@@ -50,6 +50,3 @@ python3 scripts/publish-files.py
 
 O build é gerado em `dist/`. O script copia os arquivos de publicação para a raiz do repositório, utilizada pelo GitHub Pages na branch `main`. As alterações devem ser feitas nos fontes em `app/`, antes de gerar uma nova versão.
 
-## Referências
-
-O visual e a estrutura foram adaptados dos portfólios de [Márcia Matias](https://github.com/MarciaBM/marciabm.github.io) e [Rohan Kokkula](https://rohankokkula.netlify.app/home). Os avisos do código reutilizado estão em [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
