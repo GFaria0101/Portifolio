@@ -663,5 +663,20 @@
     "en": "Team Lead",
     "es": "Líder de equipo",
     "fr": "Responsable d’équipe"
+  },
+  "Certificações e Badges": {
+    "en": "Certifications & Badges",
+    "es": "Certificaciones e insignias",
+    "fr": "Certifications et badges"
+  },
+  "Certificações em andamento": {
+    "en": "Certifications in progress",
+    "es": "Certificaciones en curso",
+    "fr": "Certifications en cours"
+  },
+  "Em breve, novidades por aqui.": {
+    "en": "Updates coming soon.",
+    "es": "Pronto habrá novedades.",
+    "fr": "Des nouvelles bientôt."
   }
 }

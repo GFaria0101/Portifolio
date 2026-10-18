@@ -26,3 +26,4 @@
     font-size: 30px;
   }
 }
+.certifications-pending{width:100%;max-width:720px;margin:18px auto 45px;padding:35px 24px;border:1px solid var(--border);border-radius:12px;text-align:center;background:var(--surface)}.certifications-pending svg{color:var(--themeOrange)}.certifications-pending h2{font-size:24px;line-height:1.4;font-weight:500;color:var(--page-text);margin:14px 0 10px}.certifications-pending p{font-size:16px;line-height:1.6;color:var(--muted-text);margin:0}@media(max-width:768px){.certifications-pending{padding:28px 18px}.certifications-pending h2{font-size:21px}}
