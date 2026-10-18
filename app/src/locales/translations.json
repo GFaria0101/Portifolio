@@ -319,11 +319,6 @@
     "es": "ENE 2017 — DIC 2019",
     "fr": "JAN 2017 — DÉC 2019"
   },
-  "Freelancer · Suporte, DevOps e Application Support": {
-    "en": "Freelancer · IT Support, DevOps & Application Support",
-    "es": "Freelance · Soporte, DevOps y soporte de aplicaciones",
-    "fr": "Freelance · Support informatique, DevOps et support applicatif"
-  },
   "Grupo Easy · Técnico de Suporte de TI": {
     "en": "Grupo Easy · IT Support Technician",
     "es": "Grupo Easy · Técnico de soporte TI",
@@ -494,11 +489,6 @@
     "es": "Profesional de ",
     "fr": "Professionnel du "
   },
-  "Application Support e IT Support L2/L3": {
-    "en": "Application Support and IT Support L2/L3",
-    "es": "Application Support e IT Support L2/L3",
-    "fr": "support applicatif et du support informatique L2/L3"
-  },
   ", com experiência em ": {
     "en": ", with experience in ",
     "es": ", con experiencia en ",
@@ -518,11 +508,6 @@
     "en": "Gabriel Faria | Portfolio",
     "es": "Gabriel Faria | Portafolio",
     "fr": "Gabriel Faria | Portfolio"
-  },
-  "Application Support, sistemas, infraestrutura e automação. Experiência e competências profissionais de Gabriel Faria.": {
-    "en": "Application Support, systems, infrastructure and automation. Gabriel Faria’s professional experience and skills.",
-    "es": "Soporte de aplicaciones, sistemas, infraestructura y automatización. Experiencia y competencias profesionales de Gabriel Faria.",
-    "fr": "Support applicatif, systèmes, infrastructure et automatisation. Expérience et compétences professionnelles de Gabriel Faria."
   },
   "Active Directory, Microsoft 365, Intune e MECM/SCCM.": {
     "en": "Active Directory, Microsoft 365, Intune and MECM/SCCM.",
@@ -653,5 +638,20 @@
     "en": "Native",
     "es": "Nativo",
     "fr": "Langue maternelle"
+  },
+  "Suporte Aplicacional e Suporte de TI L2/L3": {
+    "en": "Application Support and IT Support L2/L3",
+    "es": "Soporte de aplicaciones y soporte TI L2/L3",
+    "fr": "support applicatif et du support informatique L2/L3"
+  },
+  "Freelancer · Suporte, DevOps e Suporte Aplicacional": {
+    "en": "Freelancer · IT Support, DevOps & Application Support",
+    "es": "Freelance · Soporte, DevOps y soporte de aplicaciones",
+    "fr": "Freelance · Support informatique, DevOps et support applicatif"
+  },
+  "Suporte aplicacional, sistemas, infraestrutura e automação. Experiência e competências profissionais de Gabriel Faria.": {
+    "en": "Application Support, systems, infrastructure and automation. Gabriel Faria’s professional experience and skills.",
+    "es": "Soporte de aplicaciones, sistemas, infraestructura y automatización. Experiencia y competencias profesionales de Gabriel Faria.",
+    "fr": "Support applicatif, systèmes, infrastructure et automatisation. Expérience et compétences professionnelles de Gabriel Faria."
   }
 }

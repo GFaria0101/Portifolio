@@ -31,7 +31,7 @@ export default function Greeting(props) {
                         <h1 className="greeting-typewriter" style={{color: theme.blue, whiteSpace: "pre-wrap"}}>
                             <Typewriter key={locale}
                                 onInit={(typewriter) => {
-                                    typewriter.typeString(t("Application Support")).pauseFor(1500).deleteAll().typeString(t("Full-Stack Developer")).pauseFor(1500).deleteAll().typeString(t("Team Lead")).pauseFor(1500).deleteAll().start();
+                                    typewriter.typeString(t("Suporte Aplicacional")).pauseFor(1500).deleteAll().typeString(t("Full-Stack Developer")).pauseFor(1500).deleteAll().typeString(t("Team Lead")).pauseFor(1500).deleteAll().start();
                                 }}
                                 options={{
                                     autoStart: true,
@@ -42,7 +42,7 @@ export default function Greeting(props) {
                         <span
                             className="greeting-text-span subTitle"
                             style={{color: theme.text}}>
-                <div className="entities">{t('Profissional de ')}<b style={{color: theme.blue}}>{t('Application Support e IT Support L2/L3')}</b>{t(', com experiência em ')}<b style={{color: theme.orange}}>{t('desenvolvimento Full Stack, pipelines de dados em Python e liderança de equipas')}</b>{t('. Atuo na investigação de incidentes, análise de logs e SQL, suporte a APIs e integrações e coordenação de equipas técnicas.')}</div>
+                <div className="entities">{t('Profissional de ')}<b style={{color: theme.blue}}>{t('Suporte Aplicacional e Suporte de TI L2/L3')}</b>{t(', com experiência em ')}<b style={{color: theme.orange}}>{t('desenvolvimento Full Stack, pipelines de dados em Python e liderança de equipas')}</b>{t('. Atuo na investigação de incidentes, análise de logs e SQL, suporte a APIs e integrações e coordenação de equipas técnicas.')}</div>
               </span>
                         <CompetitiveSites logos={competitiveSites.competitiveSites}/>
                         <div className="button-greeting-div">
