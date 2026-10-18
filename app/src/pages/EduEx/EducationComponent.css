@@ -186,3 +186,4 @@
   background: var(--themeOrange);
   border: 2px solid var(--themeOrange);
 }.resume-group{margin-bottom:45px}.resume-group>.resume-title{margin-bottom:28px}.resume .resume-subtitle{font-size:18px;line-height:1.4;margin:5px 0 12px;text-align:left}.resume .resume-item{padding-bottom:22px}.resume .resume-item ul{text-align:left;line-height:1.6}.resume-item>.resume-title{max-width:100%;overflow-wrap:anywhere}.resume .date{display:inline-block;margin-bottom:8px}
+.education-main .resume-section{margin-top:35px}
