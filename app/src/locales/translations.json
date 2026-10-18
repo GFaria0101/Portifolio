@@ -558,5 +558,20 @@
     "en": "Using npm for development and Figma and Adobe Photoshop for interface visuals.",
     "es": "Uso de npm en el desarrollo y de Figma y Adobe Photoshop para la preparación visual de interfaces.",
     "fr": "Utilisation de npm pour le développement et de Figma et Adobe Photoshop pour la conception visuelle des interfaces."
+  },
+  "Utilização de Postman para testar APIs.": {
+    "en": "Using Postman to test APIs.",
+    "es": "Uso de Postman para probar APIs.",
+    "fr": "Utilisation de Postman pour tester des API."
+  },
+  "Virtualização e gestão de ambientes com VMware e Hyper-V.": {
+    "en": "Virtualisation and environment management with VMware and Hyper-V.",
+    "es": "Virtualización y gestión de entornos con VMware y Hyper-V.",
+    "fr": "Virtualisation et gestion d’environnements avec VMware et Hyper-V."
+  },
+  "Contentores, orquestração e CI/CD com Docker, Kubernetes, OpenShift, Jenkins e Terraform.": {
+    "en": "Containers, orchestration and CI/CD with Docker, Kubernetes, OpenShift, Jenkins and Terraform.",
+    "es": "Contenedores, orquestación y CI/CD con Docker, Kubernetes, OpenShift, Jenkins y Terraform.",
+    "fr": "Conteneurs, orchestration et CI/CD avec Docker, Kubernetes, OpenShift, Jenkins et Terraform."
   }
 }

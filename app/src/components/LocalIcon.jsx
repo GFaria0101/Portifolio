@@ -28,5 +28,17 @@ import phpIcon from '@iconify/icons-logos/php';
 import csharpIcon from '@iconify/icons-logos/c-sharp';
 import azureIcon from '@iconify/icons-logos/microsoft-azure';
 import awsIcon from '@iconify/icons-logos/aws';
-const icons={'logos-pandas':pandasIcon,'logos-html5':html5Icon,'logos-css3':css3Icon,'logos-sass':sassIcon,'logos-bootstrap':bootstrapIcon,'logos-javascript':javascriptIcon,'logos-nodejs':nodejsIcon,'logos-vue':vueIcon,'logos-npm':npmIcon,'logos-figma':figmaIcon,'logos-photoshop':photoshopIcon,'logos-php':phpIcon,'logos-csharp':csharpIcon,'logos-azure':azureIcon,'logos-aws':awsIcon,'logos-jira':jiraIcon,'logos-confluence':confluenceIcon,'logos-apache':apacheIcon,'logos-react':reactIcon,'logos-nextjs':nextjsIcon,'logos-typescript':typescriptIcon,'logos-openlayers':openlayersIcon,'logos-git-icon':git,'logos-java':java,'logos-python':python,'logos-docker-icon':docker,'logos-postgresql':postgres,'logos-mongodb-icon':mongo};
-export default function LocalIcon({name,label}) { return icons[name] ? <Icon icon={icons[name]} aria-hidden="true"/> : <span className="technology-badge" aria-hidden="true">{name==='support-servicenow'?'SN':name==='support-otrs'?'OTRS':label?.slice(0,2)}</span>; }
+import windowsIcon from '@iconify/icons-logos/microsoft-windows-icon';
+import linuxIcon from '@iconify/icons-logos/linux-tux';
+import bashIcon from '@iconify/icons-logos/bash-icon';
+import ansibleIcon from '@iconify/icons-logos/ansible';
+import kubernetesIcon from '@iconify/icons-logos/kubernetes';
+import openshiftIcon from '@iconify/icons-logos/openshift';
+import jenkinsIcon from '@iconify/icons-logos/jenkins';
+import terraformIcon from '@iconify/icons-logos/terraform-icon';
+import dynatraceIcon from '@iconify/icons-logos/dynatrace-icon';
+import zabbixIcon from '@iconify/icons-logos/zabbix';
+import postmanIcon from '@iconify/icons-logos/postman-icon';
+const icons={'logos-windows':windowsIcon,'logos-linux':linuxIcon,'logos-bash':bashIcon,'logos-ansible':ansibleIcon,'logos-kubernetes':kubernetesIcon,'logos-openshift':openshiftIcon,'logos-jenkins':jenkinsIcon,'logos-terraform':terraformIcon,'logos-dynatrace':dynatraceIcon,'logos-zabbix':zabbixIcon,'logos-postman':postmanIcon,'logos-pandas':pandasIcon,'logos-html5':html5Icon,'logos-css3':css3Icon,'logos-sass':sassIcon,'logos-bootstrap':bootstrapIcon,'logos-javascript':javascriptIcon,'logos-nodejs':nodejsIcon,'logos-vue':vueIcon,'logos-npm':npmIcon,'logos-figma':figmaIcon,'logos-photoshop':photoshopIcon,'logos-php':phpIcon,'logos-csharp':csharpIcon,'logos-azure':azureIcon,'logos-aws':awsIcon,'logos-jira':jiraIcon,'logos-confluence':confluenceIcon,'logos-apache':apacheIcon,'logos-react':reactIcon,'logos-nextjs':nextjsIcon,'logos-typescript':typescriptIcon,'logos-openlayers':openlayersIcon,'logos-git-icon':git,'logos-java':java,'logos-python':python,'logos-docker-icon':docker,'logos-postgresql':postgres,'logos-mongodb-icon':mongo};
+const badges={'support-servicenow':'SN','support-otrs':'OTRS','platform-powershell':'PS','platform-vmware':'VM','platform-hyperv':'HV'};
+export default function LocalIcon({name,label}) { return icons[name] ? <Icon icon={icons[name]} aria-hidden="true"/> : <span className="technology-badge" aria-hidden="true">{badges[name]??label?.slice(0,2)}</span>; }
