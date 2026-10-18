@@ -31,7 +31,7 @@ export default function Greeting(props) {
                         <h1 className="greeting-typewriter" style={{color: theme.blue, whiteSpace: "pre-wrap"}}>
                             <Typewriter key={locale}
                                 onInit={(typewriter) => {
-                                    typewriter.typeString(t("Suporte Aplicacional")).pauseFor(1500).deleteAll().typeString(t("Full-Stack Developer")).pauseFor(1500).deleteAll().typeString(t("Team Lead")).pauseFor(1500).deleteAll().start();
+                                    typewriter.typeString(t("Suporte Aplicacional")).pauseFor(1500).deleteAll().typeString(t("Desenvolvedor Full Stack")).pauseFor(1500).deleteAll().typeString(t("Líder de equipa")).pauseFor(1500).deleteAll().start();
                                 }}
                                 options={{
                                     autoStart: true,

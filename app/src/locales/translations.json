@@ -653,5 +653,15 @@
     "en": "Application Support, systems, infrastructure and automation. Gabriel Faria’s professional experience and skills.",
     "es": "Soporte de aplicaciones, sistemas, infraestructura y automatización. Experiencia y competencias profesionales de Gabriel Faria.",
     "fr": "Support applicatif, systèmes, infrastructure et automatisation. Expérience et compétences professionnelles de Gabriel Faria."
+  },
+  "Desenvolvedor Full Stack": {
+    "en": "Full-Stack Developer",
+    "es": "Desarrollador Full Stack",
+    "fr": "Développeur Full Stack"
+  },
+  "Líder de equipa": {
+    "en": "Team Lead",
+    "es": "Líder de equipo",
+    "fr": "Responsable d’équipe"
   }
 }
