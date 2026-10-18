@@ -738,5 +738,10 @@
     "en": "Process automation and troubleshooting in Linux.",
     "es": "Automatización de procesos y diagnóstico de problemas en Linux.",
     "fr": "Automatisation des processus et diagnostic des problèmes sous Linux."
+  },
+  "Veja meu currículo": {
+    "en": "View my résumé",
+    "es": "Ver mi currículum",
+    "fr": "Voir mon CV"
   }
 }

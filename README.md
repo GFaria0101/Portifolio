@@ -48,6 +48,7 @@ npm run dev -- --host 0.0.0.0 --port 3001
 
 ```sh
 npm run build
+python3 scripts/generate-cv-pdfs.py
 python3 scripts/publish-files.py
 ```
 
@@ -56,3 +57,7 @@ O build é gerado em `dist/`. O script copia os arquivos de publicação para a 
 ## Idiomas
 
 O seletor no cabeçalho permite mudar de língua sem sair da página. A preferência é guardada em `localStorage` (`gabriel-portfolio-language`), com português como padrão. O CV usa o mesmo conteúdo traduzido do portfólio e mantém os dados de contacto privados fora da apresentação. `cv.html` encaminha para a página `#/cv`, que também permite trocar o idioma e imprimir.
+
+## Currículo em PDF
+
+O botão «Veja meu currículo» abre um PDF noutra aba, no idioma selecionado. Os PDFs ficam em `app/public/cv/` e são gerados a partir do conteúdo atual do portfólio. Após alterar dados profissionais, execute `scripts/generate-cv-pdfs.py` depois do build para atualizar as quatro versões. A geração requer Python Playwright e Chromium; não reintroduza o PDF original com telefone, e-mail ou morada.

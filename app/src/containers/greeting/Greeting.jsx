@@ -47,7 +47,7 @@ export default function Greeting(props) {
                         <CompetitiveSites logos={competitiveSites.competitiveSites}/>
                         <div className="button-greeting-div">
                             <Button text={t('Contacto')} href="/contact"/>
-                            <a className="main-button" href="cv.html" target="_blank" rel="noopener noreferrer">{t('Meu CV')}</a>
+                            <a className="main-button" href={`cv/Gabriel_Faria_Curriculo_${locale}.pdf`} type="application/pdf" target="_blank" rel="noopener noreferrer">{t('Veja meu currículo')}</a>
                         </div>
                     </div>
                     <div className="greeting-image-div">
