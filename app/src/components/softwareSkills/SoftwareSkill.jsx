@@ -1,7 +1,6 @@
 import React from "react";
 import LocalIcon from "../LocalIcon.jsx";
 import "./SoftwareSkill.css";
-import {Tooltip} from "react-tooltip";
 
 class SoftwareSkill extends React.Component {
     render() {
@@ -12,15 +11,12 @@ class SoftwareSkill extends React.Component {
                         {this.props.logos.map((logo) => {
                             return (
                                 <li key={logo.skillName} className="software-skill-inline"
-                                    data-tooltip-id="my-tooltip" data-tooltip-content={logo.skillName}
-                                    name={logo.skillName}>
-                                    <LocalIcon name={logo.fontAwesomeClassname} label={logo.skillName}/><span className="technology-name">{logo.skillName}</span>
+                                    tabIndex={0} aria-label={logo.skillName}>
+                                    <LocalIcon name={logo.fontAwesomeClassname} label={logo.skillName}/><span className="technology-tooltip" aria-hidden="true">{logo.skillName}</span>
                                 </li>
                             );
                         })}
                     </ul>
-                    <Tooltip id="my-tooltip" place={"top"} style={{ backgroundColor: "rgb(255,255,255)",
-                        fontWeight: "bold", color: "#000000" }} />
                 </div>
             </div>
         );

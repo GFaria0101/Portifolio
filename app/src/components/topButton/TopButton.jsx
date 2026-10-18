@@ -11,6 +11,7 @@ export default function TopButton({ theme }) {
   }
 
   function scrollFunction() {
+    if (!document.getElementById("topButton")) return;
     if (
       document.body.scrollTop > 30 ||
       document.documentElement.scrollTop > 30
@@ -33,8 +34,10 @@ export default function TopButton({ theme }) {
 
     /* For arrow icon */
     const arrow = document.getElementById("arrow");
-    arrow.style.color = color;
-    arrow.style.backgroundColor = bgColor;
+    if (arrow) {
+      arrow.style.color = color;
+      arrow.style.backgroundColor = bgColor;
+    }
   };
 
   const onMouseLeave = (color, bgColor) => {
@@ -45,8 +48,10 @@ export default function TopButton({ theme }) {
 
     /* For arrow icon */
     const arrow = document.getElementById("arrow");
-    arrow.style.color = color;
-    arrow.style.backgroundColor = bgColor;
+    if (arrow) {
+      arrow.style.color = color;
+      arrow.style.backgroundColor = bgColor;
+    }
   };
 
   return (
