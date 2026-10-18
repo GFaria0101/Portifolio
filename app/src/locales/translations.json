@@ -573,5 +573,85 @@
     "en": "Containers, orchestration and CI/CD with Docker, Kubernetes, OpenShift, Jenkins and Terraform.",
     "es": "Contenedores, orquestación y CI/CD con Docker, Kubernetes, OpenShift, Jenkins y Terraform.",
     "fr": "Conteneurs, orchestration et CI/CD avec Docker, Kubernetes, OpenShift, Jenkins et Terraform."
+  },
+  "Ler livros": {
+    "en": "Reading books",
+    "es": "Leer libros",
+    "fr": "Lire des livres"
+  },
+  "Viajar": {
+    "en": "Travelling",
+    "es": "Viajar",
+    "fr": "Voyager"
+  },
+  "Linguagens no meu dia a dia": {
+    "en": "Languages in my day-to-day work",
+    "es": "Lenguajes en mi día a día",
+    "fr": "Les langages dans mon quotidien"
+  },
+  "Como aplico as linguagens nos meus projetos e nas operações de TI.": {
+    "en": "How I use languages in my projects and IT operations.",
+    "es": "Cómo utilizo los lenguajes en mis proyectos y en las operaciones de TI.",
+    "fr": "Comment j’utilise les langages dans mes projets et les opérations informatiques."
+  },
+  "Dados, pipelines e automação": {
+    "en": "Data, pipelines and automation",
+    "es": "Datos, pipelines y automatización",
+    "fr": "Données, pipelines et automatisation"
+  },
+  "Consultas e validação de dados": {
+    "en": "Data queries and validation",
+    "es": "Consultas y validación de datos",
+    "fr": "Requêtes et validation des données"
+  },
+  "Interfaces web e APIs com Node.js": {
+    "en": "Web interfaces and APIs with Node.js",
+    "es": "Interfaces web y APIs con Node.js",
+    "fr": "Interfaces web et API avec Node.js"
+  },
+  "Aplicações web com React e Next.js": {
+    "en": "Web applications with React and Next.js",
+    "es": "Aplicaciones web con React y Next.js",
+    "fr": "Applications web avec React et Next.js"
+  },
+  "APIs e suporte a aplicações": {
+    "en": "APIs and application support",
+    "es": "APIs y soporte de aplicaciones",
+    "fr": "API et support applicatif"
+  },
+  "Desenvolvimento backend": {
+    "en": "Backend development",
+    "es": "Desarrollo backend",
+    "fr": "Développement backend"
+  },
+  "Administração de sistemas e automação": {
+    "en": "System administration and automation",
+    "es": "Administración de sistemas y automatización",
+    "fr": "Administration des systèmes et automatisation"
+  },
+  "Português": {
+    "en": "Portuguese",
+    "es": "Portugués",
+    "fr": "Portugais"
+  },
+  "Inglês": {
+    "en": "English",
+    "es": "Inglés",
+    "fr": "Anglais"
+  },
+  "Espanhol": {
+    "en": "Spanish",
+    "es": "Español",
+    "fr": "Espagnol"
+  },
+  "Francês": {
+    "en": "French",
+    "es": "Francés",
+    "fr": "Français"
+  },
+  "Nativo": {
+    "en": "Native",
+    "es": "Nativo",
+    "fr": "Langue maternelle"
   }
 }

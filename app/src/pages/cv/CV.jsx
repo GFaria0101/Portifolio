@@ -14,5 +14,5 @@ export default function CV(){
  <h2>{t('Competências')}</h2>{portfolio.skills.data.map(skill=><section key={skill.title}><h3>{skill.title}</h3><p className="cv-technologies">{skill.softwareSkills.map(tool=>tool.skillName).join(" · ")}</p><ul>{skill.skills.map(line=><li key={line}>{line.replace(/^⚡ /,'')}</li>)}</ul></section>)}
  <h2>{t('Experiência profissional')}</h2>{portfolio.resumeleft.left[0].data.map(job=><section key={job.title}><h3>{job.title}</h3><p>{job.date}</p>{job.content.map(line=><p key={line}>{line}</p>)}</section>)}
  <h2>{t('Formação')}</h2>{portfolio.resumeright.right[0].data.map(education=><section key={education.title}><h3>{education.title}</h3><p>{education.subtitle} · {education.date}</p></section>)}
- <h2>{t('Idiomas')}</h2><p>{portfolio.idioms.map(item=>item.name).join(' · ')}</p></article>;
+ <h2>{t('Idiomas')}</h2><p>{portfolio.idioms.map(item=>`${item.name}: ${item.level}`).join(' · ')}</p></article>;
 }
