@@ -6,7 +6,7 @@ function ResumeContent(props) {
             <h2 className={props.title ? "resume-title" : "resume-no-title"}>
                 {props.title}
             </h2>
-            <span className="date"><em>{props.date}</em></span>
+            {props.date && <span className="date"><em>{props.date}</em></span>}
 
             <div style={{display: "flex", flexDirection: "row", justifyContent: "center", height: props.companies.length > 0 ? "60px" : "0"}}>
                 {props.companies?.map((company) => {
@@ -18,7 +18,7 @@ function ResumeContent(props) {
                 })
                 }
             </div>
-            <h6 className={props.title ? "resume-subtitle" : "resume-no-title"}>{props.subtitle}</h6>
+            {props.subtitle && <h3 className="resume-subtitle">{props.subtitle}</h3>}
             <p>
 
             </p>

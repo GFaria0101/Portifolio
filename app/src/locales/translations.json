@@ -678,5 +678,65 @@
     "en": "Updates coming soon.",
     "es": "Pronto habrá novedades.",
     "fr": "Des nouvelles bientôt."
+  },
+  "Trabalhos freelance": {
+    "en": "Freelance Work",
+    "es": "Trabajos freelance",
+    "fr": "Missions freelance"
+  },
+  "Desenvolvimento e DevOps": {
+    "en": "Development & DevOps",
+    "es": "Desarrollo y DevOps",
+    "fr": "Développement et DevOps"
+  },
+  "Cloud, Linux e monitorização": {
+    "en": "Cloud, Linux & Monitoring",
+    "es": "Cloud, Linux y monitorización",
+    "fr": "Cloud, Linux et supervision"
+  },
+  "Suporte e manutenção de aplicações frontend e backend, aplicações Java, APIs e microserviços.": {
+    "en": "Support and maintenance of frontend and backend applications, Java applications, APIs and microservices.",
+    "es": "Soporte y mantenimiento de aplicaciones frontend y backend, aplicaciones Java, APIs y microservicios.",
+    "fr": "Support et maintenance d’applications frontend et backend, d’applications Java, d’API et de microservices."
+  },
+  "Consultas SQL, análise de fluxos Kafka e automação com PowerShell, Bash e Python.": {
+    "en": "SQL queries, Kafka stream analysis and automation with PowerShell, Bash and Python.",
+    "es": "Consultas SQL, análisis de flujos Kafka y automatización con PowerShell, Bash y Python.",
+    "fr": "Requêtes SQL, analyse de flux Kafka et automatisation avec PowerShell, Bash et Python."
+  },
+  "Monitorização com Dynatrace e Zabbix e atuação com AWS, Azure, Docker, Kubernetes, OpenShift, Jenkins e Terraform.": {
+    "en": "Monitoring with Dynatrace and Zabbix and work with AWS, Azure, Docker, Kubernetes, OpenShift, Jenkins and Terraform.",
+    "es": "Monitorización con Dynatrace y Zabbix y trabajo con AWS, Azure, Docker, Kubernetes, OpenShift, Jenkins y Terraform.",
+    "fr": "Supervision avec Dynatrace et Zabbix et travail avec AWS, Azure, Docker, Kubernetes, OpenShift, Jenkins et Terraform."
+  },
+  "Desenvolvimento frontend e suporte a aplicações web com JavaScript, Git e automações.": {
+    "en": "Frontend development and web application support with JavaScript, Git and automation.",
+    "es": "Desarrollo frontend y soporte de aplicaciones web con JavaScript, Git y automatizaciones.",
+    "fr": "Développement frontend et support d’applications web avec JavaScript, Git et automatisation."
+  },
+  "Participação em processos de deploy, troubleshooting de aplicações Java e integrações.": {
+    "en": "Participation in deployment processes and troubleshooting Java applications and integrations.",
+    "es": "Participación en procesos de despliegue y resolución de problemas de aplicaciones Java e integraciones.",
+    "fr": "Participation aux déploiements et au dépannage d’applications Java et d’intégrations."
+  },
+  "Suporte a APIs e bases de dados relacionais e não relacionais.": {
+    "en": "Support for APIs and relational and non-relational databases.",
+    "es": "Soporte de APIs y bases de datos relacionales y no relacionales.",
+    "fr": "Support d’API et de bases de données relationnelles et non relationnelles."
+  },
+  "Suporte a ambientes cloud e infraestrutura Linux, incluindo troubleshooting e apoio operacional.": {
+    "en": "Support for cloud environments and Linux infrastructure, including troubleshooting and operational support.",
+    "es": "Soporte de entornos cloud e infraestructura Linux, incluida la resolución de problemas y el apoyo operativo.",
+    "fr": "Support des environnements cloud et de l’infrastructure Linux, avec dépannage et assistance opérationnelle."
+  },
+  "Monitorização de serviços com Dynatrace e Zabbix.": {
+    "en": "Service monitoring with Dynatrace and Zabbix.",
+    "es": "Monitorización de servicios con Dynatrace y Zabbix.",
+    "fr": "Supervision des services avec Dynatrace et Zabbix."
+  },
+  "Automação de processos e diagnóstico de problemas em Linux.": {
+    "en": "Process automation and troubleshooting in Linux.",
+    "es": "Automatización de procesos y diagnóstico de problemas en Linux.",
+    "fr": "Automatisation des processus et diagnostic des problèmes sous Linux."
   }
 }
