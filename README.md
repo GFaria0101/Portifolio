@@ -56,7 +56,7 @@ O build é gerado em `dist/`. O script copia os arquivos de publicação para a 
 
 ## Idiomas
 
-O seletor no cabeçalho permite mudar de língua sem sair da página. A preferência é guardada em `localStorage` (`gabriel-portfolio-language`), com português como padrão. O CV usa o mesmo conteúdo traduzido do portfólio e mantém os dados de contacto privados fora da apresentação. `cv.html` encaminha para a página `#/cv`, que também permite trocar o idioma e imprimir.
+O seletor no cabeçalho permite mudar de língua sem sair da página. A preferência é guardada em `localStorage` (`gabriel-portfolio-language`), com português como padrão. O CV usa o mesmo conteúdo traduzido do portfólio e mantém os dados de contacto privados fora da apresentação. `cv.html` encaminha diretamente para o PDF no idioma guardado, mantendo compatibilidade com os links antigos. A rota `#/cv` permanece como fonte para gerar os PDFs.
 
 ## Currículo em PDF
 
